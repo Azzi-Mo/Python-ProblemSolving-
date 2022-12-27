@@ -5,7 +5,7 @@ def convert(n):
  st = str(n)
  res = []
  for num in st:
-      res.append(num)
+      res.append(int(num))
  res.reverse()
  return res
 
